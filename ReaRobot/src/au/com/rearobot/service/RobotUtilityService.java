@@ -30,7 +30,12 @@ public class RobotUtilityService {
                 switch (operation.toUpperCase()) {
                     case "PLACE" :
                     {
-                        robot = getRobot(scan.next());
+                        try {
+                            robot = getRobot(scan.next());
+                        } catch (RobotMovementException e) {
+                            System.out.println("Hey mate!! I will fall on that move");
+                        }
+                        
                         break;
                     }
                     case "MOVE":
