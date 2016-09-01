@@ -3,7 +3,7 @@ Toy Robot Simulator
 
 COMMENTS and How to Execute.
 --------------------------------
-1. For production use the jar file in the dist directory and run the java 8 command 'java -jar ReaRobot.jar'
+1. For production use the jar file and run the java 8 command 'java -jar ReaRobot.jar'
 2. The code base contains src and test classes. 
 3. Robot is an interface to loose couple things.
 4. Created a utility service just to avoid using robot class useage directly in the main. Hence loose coupling the same.
